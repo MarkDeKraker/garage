@@ -28,6 +28,10 @@
     <li><a href="gar-update-auto1.php">    update              </a></li>
     <li><a href="gar-delete-auto1.php">    delete              </a></li>
 </ul>
+<h2>Extra</h2>
+<ul>
+<li><a href="gar-readeigenaar-klant1.php">   ReadEigenaar </a></li>
+</ul>
 </body>
 
 </html>

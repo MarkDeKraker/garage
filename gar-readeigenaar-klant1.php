@@ -1,40 +1,36 @@
+<!DOCTYPE HTML>
 <html lang="nl">
 <head>
-    <meta name="author" content="mark">
-    <meta charset="UTF-8">
-    <title>gar-read-auto1.hp</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <title>
+        Klant met auto
+    </title>
 
 </head>
 <body>
-<p>
-    Dit zijn alle gegevens uit de
-    tabel klanten van de database garage
-</p>
+<h1>klant met auto</h1>
+<h2>welke klant welke auto heeft</h2>
 <?php
-// tabel uitlezen en netjes afdrukken
 require_once "gar-connect.php";
 
-$autos = $conn->prepare("
-                select * from auto
-");
-$autos->execute();
+$klanten = $conn->prepare(" SELECT klant.klantid, klantnaam, autokenteken, automerk, autotype FROM klant, auto WHERE klant.klantid = 
+ auto.klantid ");
+
+$klanten->execute();
 
 echo "<table>";
-foreach($autos as $auto)
-{
+foreach ($klanten as $klant){
     echo "<tr>";
-    echo "<td>" . $auto["autokenteken"]    .  "</td>";
-    echo "<td>" . $auto["automerk"]    .  "</td>";
-    echo "<td>" . $auto["autotype"]    .  "</td>" ;
-    echo "<td>" . $auto["autokmstand"]    .  "</td>";
-    echo "<td>" . $auto["klantid"]    .  "</td>";
-
+    echo "<td>" . $klant["klantid"]           . "</td>";
+    echo "<td>" . $klant["klantnaam"]         . "</td>";
+    echo "<td>" . $klant["autokenteken"]      . "</td>";
+    echo "<td>" . $klant["automerk"]          ."</td>";
+    echo "<td>" . $klant["autotype"]          ."</td>";
     echo "</tr>";
-}
-echo "</table>";
-echo "<a href='gar-menu.php'> terug naar het menu </a>";
-?>
+    echo "</table>";
 
+}
+echo "</br>";
+echo "<a href='gar-menu.php'>terug naar het menu</a>";
+?>
 </body>
 </html>
