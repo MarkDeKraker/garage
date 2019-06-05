@@ -4,6 +4,8 @@
     <title>
         Klant met auto
     </title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+
 
 </head>
 <body>

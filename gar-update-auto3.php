@@ -4,7 +4,7 @@
     <meta name="author" content="Anjo Eijeriks">
     <meta charset="UTF-8">
     <title>gar-update-auto3.php</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/.css">
 </head>
 <body>
 <h1>garage update auto 3</h1>

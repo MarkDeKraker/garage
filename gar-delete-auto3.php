@@ -4,7 +4,7 @@
     <meta name="author" content="mark">
     <meta charset="UTF-8">
     <title>gar-read-auto3.php</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 
 </head>
 <body>

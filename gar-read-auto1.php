@@ -3,7 +3,7 @@
     <meta name="author" content="mark">
     <meta charset="UTF-8">
     <title>gar-read-auto1.hp</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 
 </head>
 <body>

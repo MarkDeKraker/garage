@@ -1,7 +1,7 @@
 <doctype html>
     <head>
         <title>gar-update-klant2.php</title>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
 
     <body>

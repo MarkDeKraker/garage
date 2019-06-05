@@ -4,7 +4,7 @@
     <meta name="author" content="Mark"
     <meta charset="UTF-8">
     <title>gar-delete-auto2.php</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 <h1>garage delete auto 2</h1>

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>gar-update-auto2.php</title>
-            <link rel="stylesheet" href="stylesheet.css">
+            <link rel="stylesheet" href="css/stylesheet.css">
     </head>
 
     <body>
